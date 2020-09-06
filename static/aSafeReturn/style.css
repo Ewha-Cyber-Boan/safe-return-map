@@ -1,0 +1,104 @@
+@font-face {
+font-family: 'NeoDunggeunmo';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Recipekorea';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Cafe24Ohsquare';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'BBTreeGL';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGL.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+
+      #grid{
+        //border: 5px solid skyblue;
+        display: grid;
+        text-align: center;
+        text-decoration-color: black;
+        width: 100%;
+        height: 100%;
+        //grid-template-rows:1fr 4fr;
+      }
+
+      .container {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+      .container::after {
+          width: 100%;
+          height: 100%;
+          content: "";
+          background: url("image/road_img.png");
+          position: absolute;
+          background-repeat : no-repeat;
+          background-size : cover;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          opacity: 0.4;
+      /*
+      background: url("image/map2.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            opacity: 0.4;
+      */
+
+}
+
+      #font{
+          color: black;
+          font-family: "Recipekorea";
+      }
+      #big_font{
+          color: #20b2aa;
+          font-size: 65px;
+          font-weight: bold;
+          font-family: "NeoDunggeunmo";
+      }
+      #cute_font{
+          font-family: "BBTreeGL";
+      }
+.submit-btn{
+    width: 300px;
+    font-family: 'Recipekorea';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #6495ed;
+    padding: 10px;
+    margin-inside:10px;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius: 10px;
+    border: none;
+}
+.input-box{
+          font-family: 'BBTreeGL';
+          width: 250px;
+          font-size: 15px;
+          color: black;
+          background-color: white;
+          padding: 10px;
+      }

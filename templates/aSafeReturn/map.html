@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" content='text/css' href={% static "aSafeReturn/map.css" %}>
+    <title>Safe Return Map</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <style type = "text/css">
+        a {text-decoration: none; color: black}
+        #start_end_re {
+            width: 430px;
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+        #block {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="title">Safe Return Map</div>
+        <div>
+        <div id = "block">
+            <div id="start_end_re">
+                <div>
+                    <h3 class = "start" style="display: inline;">{{ start_point }}</h3>
+                    <h3 class = "grey" style="display: inline;">에서</h3><br>
+                    <h3 class = "start" style="display: inline;">{{ end_point }}</h3>
+                    <h3 class = "grey" style="display: inline;">까지</h3>
+                </div>
+                <div>
+                    <a href="../"><button type="button" class="re-btn">다시 검색하기</button></a>
+                </div>
+            </div>
+        </div>
+        <div id ="block">
+            <div id="route">
+                {% for step in steps %}
+                    {{ step.turnDesc }}<br>
+                {% endfor %}
+            </div>
+        </div>
+        <div id = "block">
+            <div class = "center">
+                <a href="../markerMap/" target="_blank">
+                    <button type="button" class="go-folium-btn">지도 보기</button>
+                </a>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
