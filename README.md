@@ -11,7 +11,6 @@
 **윤가영**(@kyY00n) - Kayoung Yoon    
 **한근영**(@syi07030) - syi07030   
 
-------
 
 ## 서비스 미리보기
 
@@ -24,7 +23,7 @@
 - 지도 출력 화면 ( <span style="color:blue">파란색</span> : 파출소</span>, <span style="color:green">초록색</span>: 가로등, <span style="color:red">빨간색</span>: 최단경로)
   ![map](./image/resultMap.jpg)
 
-------
+
 ## 핵심 아이디어 소개
 
 ### 1. 소프트웨어의 목적
@@ -72,7 +71,6 @@ n | Description
 
 *각 단계 별 구체적인 구현 과정은 생략한다.*
 
-------------------
 
 ## 대회 참가 목적
 
