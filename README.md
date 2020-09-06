@@ -3,9 +3,10 @@
 ## 소개
 **서대문구 밝은 길 안내 서비스**   
 : 가로등, 경찰서 위치 공공 데이터 활용 서대문구 도보 경로 제공 서비스   
+2020년 제7회 소프트웨어 개발보안 경진대회   
 
 ## 개발자 정보
-팀명: **ECB**   
+#### 팀명: **ECB**   
 **김서현**(@kshjessica) - kshjessica   
 **김윤서**(@yoonseo-hi) - Yoonseo KIM   
 **윤가영**(@kyY00n) - Kayoung Yoon    
@@ -18,8 +19,8 @@
   ![start](./image/startPage.jpg)
 
 - 경로 출력화면
-  ![result](./image/resultPage.jpg)
-
+  ![result](./image/resultPage.jpg)   
+   
 - 지도 출력 화면 ( <span style="color:blue">파란색</span> : 파출소</span>, <span style="color:green">초록색</span>: 가로등, <span style="color:red">빨간색</span>: 최단경로)
   ![map](./image/resultMap.jpg)
 
