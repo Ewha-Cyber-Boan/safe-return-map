@@ -8,7 +8,7 @@
 ## 개발자 정보
 #### 팀명: **ECB**   
 **김서현**(@kshjessica) - kshjessica   
-**김윤서**(@yoonseo-hi) - Yoonseo KIM   
+**김윤서**(@ottl-seo) - Yoonseo KIM   
 **윤가영**(@kyY00n) - Kayoung Yoon    
 **한근영**(@syi07030) - syi07030   
 
